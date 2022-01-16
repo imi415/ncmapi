@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: "actions/checkout@v2"
+        with:
+          submodules: "recursive"
       - name: "Login with Github packages"
         uses: "docker/login-action@v1"
         with:
