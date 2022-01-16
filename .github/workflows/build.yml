@@ -27,4 +27,4 @@ jobs:
           context: "./NeteaseCloudMusicApi"
           file: "./Dockerfile"
           push: true
-          tags: "ghcr.io/${{ github.repository_owner }}/netease_cloud_music_api:${{ github.ref_name }}"
+          tags: "ghcr.io/${{ github.repository_owner }}/ncmapi:${{ github.ref_name }}"
