@@ -25,6 +25,5 @@ jobs:
         uses: "docker/build-push-action@v2"
         with:
           context: "./NeteaseCloudMusicApi"
-          file: "./Dockerfile"
           push: true
           tags: "ghcr.io/${{ github.repository_owner }}/ncmapi:${{ github.ref_name }}"
